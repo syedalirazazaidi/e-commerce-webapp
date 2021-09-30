@@ -67,6 +67,7 @@ const Contact: React.FC = () => {
 								className="textarea-message"
 							></textarea>{" "}
 						</div>
+						<button>Send</button>
 					</form>
 				</div>
 			</div>
