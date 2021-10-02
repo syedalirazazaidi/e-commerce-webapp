@@ -212,15 +212,21 @@ input {
   width: 70vw;
   color: #fff;
   max-width: var(--max-width);
+  
 }
 .nav-header {
-  width:12rem;
+  width:12.6rem;
   height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
  margin:25px;
- 
+ letter-spacing: 5px;
+ text-transform: uppercase;
+ border-right: 2px solid white;
+}
+.nav-link:hover{
+  color: #dc0beb
 }
 .nav-header img {
   width: 130px;
@@ -237,8 +243,11 @@ input {
     background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .nav-btn {
+  border:none;
+  color:#fff;
   /* background-color: aliceblue; */
-  padding: 0.15rem 0.75rem;
+  /* padding: 0.15rem 0.75rem; */
+ 
 }
 .nav-btn svg {
   font-size: 1.5rem;
@@ -249,10 +258,15 @@ input {
   display: flex;
   flex-direction: column;
   transition: var(--transition);
+  letter-spacing: 3px;
+  
+ 
 }
 .show-links {
   height: 23.9375rem;
+  
 }
+
 
 .nav-link {
   display: block;
