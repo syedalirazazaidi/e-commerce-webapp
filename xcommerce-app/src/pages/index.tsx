@@ -11,7 +11,17 @@ const IndexPage: React.FC = () => {
   return (
     <div>
       <Layout>
-        <Image />
+        <main className="page">
+          <header className="hero">
+            <StaticImage
+              src="../asset/images/Background smoke.png"
+              alt="perfume"
+              className="hero-img"
+              placeholder="tracedSVG"
+              layout="fullWidth"
+            ></StaticImage>
+          </header>
+        </main>
         <Contact />
       </Layout>
     </div>

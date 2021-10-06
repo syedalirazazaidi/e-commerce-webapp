@@ -23,10 +23,10 @@ module.exports = {
       },
     },
     // {
-    //   resolve: `gatsby-source-filesystem`,
+    //   resolve: "gatsby-source-shopify",
     //   options: {
-    //     name: `images`,
-    //     path: `${__dirname}/src/images`,
+    //     password: process.env.SHOPIFY_ADMIN_PASSWORD,
+    //     storeUrl: process.env.SHOPIFY_STORE_URL,
     //   },
     // },
   ],
