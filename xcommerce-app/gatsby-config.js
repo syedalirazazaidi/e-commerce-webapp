@@ -3,7 +3,7 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
-
+require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter TypeScript`,
@@ -22,12 +22,12 @@ module.exports = {
         // Add any options here
       },
     },
-    // {
-    //   resolve: "gatsby-source-shopify",
-    //   options: {
-    //     password: process.env.SHOPIFY_ADMIN_PASSWORD,
-    //     storeUrl: process.env.SHOPIFY_STORE_URL,
-    //   },
-    // },
+    {
+      resolve: "gatsby-source-shopify",
+      options: {
+        password: process.env.SHOPIFY_ADMIN_PASSWORD,
+        storeUrl: process.env.SHOPIFY_STORE_URL,
+      },
+    },
   ],
 }
