@@ -16,7 +16,7 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import "normalize.css"
 import Contact from "./contactform"
-const Layout: React.FC = ({ children }) => {
+const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
   // 	query SiteTitleQuery {
   // 		site {
