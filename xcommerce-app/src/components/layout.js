@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   // `);
 
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <Navbar />
       {children}
       <Footer />

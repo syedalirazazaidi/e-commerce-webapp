@@ -2,7 +2,7 @@
 ::after,
 ::before {
   box-sizing: border-box;
-  background-color: black;
+  /* background-color: rgb(110, 85, 85); */
  
 }
 :root {
@@ -92,7 +92,7 @@ p {
 .user-icon{
   position: absolute;
   font-size: 20px;
- color: #fff;
+ color: black;
  top: 31px;
 margin:7px;
 
