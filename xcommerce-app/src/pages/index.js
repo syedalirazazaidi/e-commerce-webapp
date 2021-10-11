@@ -12,6 +12,7 @@ import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import AllProducts from "../components/allProducts"
 import PagesOne from "../components/pagesOne"
+import pagesTwo from "../components/pagesTwo"
 // require("dotenv").config()
 const client = Client.buildClient({
   domain: "demo-ecoerce.myshopify.com",
@@ -32,6 +33,7 @@ const IndexPage = ({ data }) => {
     <div>
       <Layout>
         <PagesOne />
+        <pagesTwo />
         {/* <main className="page">
           <header className="hero">
             <StaticImage
